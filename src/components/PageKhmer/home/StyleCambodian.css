@@ -1,0 +1,56 @@
+#row_Mt{
+    text-align: center;
+}
+
+a{
+  font-family: "Hanuman", Georgia;
+  font-size: 1vw;
+}
+.a1{
+  font-size: 0.9vw;
+}
+h1{
+  font-family: "Hanuman", Georgia;
+  font-size: 0.5em;
+}
+h2{
+  font-family: "Hanuman", Georgia;
+  font-size: 1.1em;
+}
+h3{
+  font-family: "Hanuman", Georgia;
+  font-size: 1.1em;
+}
+h4{
+  font-family: "Hanuman", Georgia;
+  font-size: 1.1em;
+}
+h5{
+  font-family: "Hanuman", Georgia;
+  font-size: 1.1em;
+}
+h6{
+  font-family: "Hanuman", Georgia;
+  font-size: 1.1em;
+}
+p{
+  font-family: "Hanuman", Georgia;
+  font-size: 1.1em;
+}
+.table{
+  font-family: "Hanuman", Georgia;
+  font-size: 1.1em;
+}
+.tbody{
+  font-size:1.1em;
+}
+.phead{
+  text-align: justify;
+  font-family: Koulen;
+  color: blue;
+}
+@media (max-width: 390px) {
+    .small p {
+      font-size: clamp(35px,70px,100px);
+    }
+  }

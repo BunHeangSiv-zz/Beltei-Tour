@@ -1,0 +1,326 @@
+/* Add this style for the hamburger icon */
+.menu-icon {
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    color: #fff; /* Adjust color as needed */
+  }
+
+
+  .topic {
+    display:none;
+  }
+  @media only screen and (max-width: 1024px) {
+    .container {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff; /* Ensures background is white */
+    }
+    .sidebar-left {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 100%;
+      background-color: #333;
+      z-index: 1;
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
+    .test{
+      width: 200px;
+      height: 150px;
+    }
+    .testdiv{
+      width: 500px;
+    }
+    .testp{
+      font-size: 16;
+    }
+    h1{
+      font-size: 2.3vw;
+    }
+    h2{
+      font-size: 2.3vw;
+    }
+    h3{
+      font-size: 2.3vw;
+    }
+    h4{
+      font-size: 2.3vw;
+    }
+    h5{
+      font-size: 2.3vw;
+    }
+    h6{
+      font-size: 2.3vw;
+    }
+    p{
+      font-size: 2.3vw;
+    }
+    .table{
+      font-size: 2.3vw;
+    }
+    .topic {
+      display: block;
+    }
+
+    .text {
+        font-size: 100px;
+    }
+  
+    .sidebar-left.open {
+      left: 200px;
+    }
+  
+    /* Show the hamburger icon when the sidebar is hidden */
+    .sidebar-left:not(.open) + .menu-icon {
+      display: block;
+    }
+  
+    /* Hide the hamburger icon when the sidebar is open */
+    .sidebar-left.open + .menu-icon {
+      display: none;
+    }
+    .content {
+      width: 700px;
+    }
+  }
+  
+  /* Add this style to hide the sidebar initially on smaller screens */
+  @media only screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff; /* Ensures background is white */
+    }
+    .sidebar-left {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 100%;
+      background-color: #333;
+      z-index: 1;
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
+    .test{
+      width: 170px;
+      height: 130px;
+    }
+    .testp{
+      font-size: 14px;
+    }
+    .testdiv{
+      width:75%;
+    }
+    h1{
+      font-size: 2.3vw;
+    }
+    h2{
+      font-size: 2.3vw;
+    }
+    h3{
+      font-size: 2.3vw;
+    }
+    h4{
+      font-size: 2.3vw;
+    }
+    h5{
+      font-size: 2.3vw;
+    }
+    h6{
+      font-size: 2.3vw;
+    }
+    p{
+      font-size: 2.3vw;
+    }
+    .table{
+      font-size: 2.3vw;
+    }
+
+    .topic {
+      display: block;
+    }
+
+    .text {
+        font-size: 100px;
+    }
+  
+    .sidebar-left.open {
+      left: 200px;
+    }
+  
+    /* Show the hamburger icon when the sidebar is hidden */
+    .sidebar-left:not(.open) + .menu-icon {
+      display: block;
+    }
+  
+    /* Hide the hamburger icon when the sidebar is open */
+    .sidebar-left.open + .menu-icon {
+      display: none;
+    }
+
+    .content {
+      width: 700px;
+    }
+  }
+
+  @media only screen and (max-width: 428px) {
+    .container {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff; /* Ensures background is white */
+    }
+
+    .content {
+      width: 378px;
+    }
+    .test{
+      width: 120px;
+      height: 100px;
+    }
+    .testp{
+      font-size: 2vw;
+    }
+    .testdiv{
+      width: 65%;
+    }
+    h1{
+      font-size: 2.3vw;
+    }
+    h2{
+      font-size: 2.3vw;
+    }
+    h3{
+      font-size: 2.3vw;
+    }
+    h4{
+      font-size: 2.3vw;
+    }
+    h5{
+      font-size: 2.3vw;
+    }
+    h6{
+      font-size: 2.3vw;
+    }
+    p{
+      font-size: 2.3vw;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+
+    .container {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff; /* Ensures background is white */
+    }
+    .content {
+      width: 340px;
+      padding: top 0;
+    }
+    h1{
+      font-size: 2.3vw;
+    }
+    h2{
+      font-size: 2.3vw;
+    }
+    h3{
+      font-size: 2.3vw;
+    }
+    h4{
+      font-size: 2.3vw;
+    }
+    h5{
+      font-size: 2.3vw;
+    }
+    h6{
+      font-size: 2.3vw;
+    }
+    p{
+      font-size: 2.3vw;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .container {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff; /* Ensures background is white */
+    }
+    .content {
+      width: 310px;
+    }
+    h1{
+     font-size: 2.3vw;
+    }
+    h2{
+     font-size: 2.3vw;
+    }
+    h3{
+     font-size: 2.3vw;
+    }
+    h4{
+     font-size: 2.3vw;
+    }
+    h5{
+     font-size: 2.3vw;
+    }
+    h6{
+     font-size: 2.3vw;
+    }
+    p{
+     font-size: 2.3vw;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .container {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff; /* Ensures background is white */
+    }
+    .content {
+      width: 270px;
+    }
+    h1{
+      font-size: 2.3vw;
+    }
+    h2{
+      font-size: 2.3vw;
+    }
+    h3{
+      font-size: 2.3vw;
+    }
+    h4{
+      font-size: 2.3vw;
+    }
+    h5{
+      font-size: 2.3vw;
+    }
+    h6{
+      font-size: 2.3vw;
+    }
+    p{
+      font-size: 2.3vw;
+    }
+  }

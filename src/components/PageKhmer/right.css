@@ -1,0 +1,55 @@
+/* styles.css */
+
+.bg {
+  background-color: #dfe9ce; /* Replace with your desired container background color */
+}
+
+
+/* Menu.css */
+.clickable {
+    cursor: pointer;
+  }
+  
+  .non-clickable {
+    cursor: default;
+  }
+
+/* styles.css or your preferred stylesheet */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #7BA46A;
+  color: white;
+  padding: 1px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  max-height: 200px; /* Set a maximum height for the dropdown content */
+  overflow-y: auto; /* Enable vertical scrollbar if needed */
+}
+
+.dropdown-content .menu-item {
+  padding: 5px;
+  display: block;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown-content .menu-item:hover {
+  background-color: #dfe9ce;
+}
+
+.dropdown.open .dropdown-content {
+  display: block;
+}

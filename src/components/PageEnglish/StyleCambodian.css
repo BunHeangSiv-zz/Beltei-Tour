@@ -1,0 +1,61 @@
+#row_Mt{
+    text-align: center;
+}
+
+.text{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(65, 129, 106);
+}
+.text_P{
+    color: rgb(50, 50, 167);
+    
+}
+.img_Box{
+    width: 80%;
+    height: 120px;
+    align-self: center;
+    background-color: aqua;
+   
+}
+.img_Box img{
+    width: 100%;
+    height: 100%;
+}
+.Boxpage{
+    width: 90%;
+    height: 50px;
+    /* background-color: rgb(43, 182, 41); */
+}
+.rowIMG img{
+    width: 100%;
+    color: rgb(2, 120, 156);
+    
+}
+.redtext{
+    color: red;
+}
+#row_Mt{
+    text-align: center;
+}
+.hrLine{
+    width: 95%;
+    height: 2px;
+    background-color:rgb(65, 50, 31);
+}
+.row  #ove:hover{
+    color: aqua;
+}
+.colorp{
+    color: rgb(51, 107, 70);
+}
+.PageP{
+    text-align: center;
+    font-size:10;
+}
+.img_Phnom img{
+    width: 100%;
+}
+.Box_Phnom img{
+    width: 100%;
+}

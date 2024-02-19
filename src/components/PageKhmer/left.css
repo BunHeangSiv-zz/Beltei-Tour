@@ -1,0 +1,48 @@
+/* Container styles */
+.container {
+  width: 90%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Ensures background is white */
+}
+
+/* Grid layout adjustments */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Creates a 6-column grid */
+  gap: 20px;
+}
+
+/* Sidebar styles */
+.sidebar-left, .sidebar-right {
+  align-items: center;
+}
+
+/* Ensures SidebarRight has its specific background */
+.sidebar-right {
+  background-color: #dfe9ce;
+}
+
+/* Content styles */
+.content {
+  grid-column: span 4; /* Ensure this matches your layout intent */
+  /* Other styles */
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* Adjusts to a single column for smaller screens */
+  }
+
+  .sidebar-left, .sidebar-right {
+    display: none; /* Hides sidebars on smaller screens */
+  }
+
+  .content {
+    grid-column: 1; /* Allows content to fill the grid */
+  }
+}
+
